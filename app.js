@@ -1,6 +1,7 @@
 var path = require("path");
 global.GLOBAL_PATH = path.resolve(__dirname);
-// global.GLOBAL_CONFIG = require("config");
+global.MODELS = require(`${GLOBAL_PATH}/models`);
+global.DAO = require(`${GLOBAL_PATH}/dao`);
 
 var express = require('express');
 var path = require('path');

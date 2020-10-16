@@ -1,6 +1,6 @@
 var controllers = require(GLOBAL_PATH + "/controllers/api/");
 
-module.exports = function(app) {
+module.exports = function (app) {
   app
-    .get("/auth/login", controllers.authController.login)
+    .post("/auth/login", controllers.authController.login)
 }
