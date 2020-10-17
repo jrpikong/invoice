@@ -1,5 +1,6 @@
 const fs = require('fs');
 //mysql://b377272954bd80:d839ac54@us-cdbr-east-02.cleardb.com/heroku_e1180e8488a4c3c?reconnect=true
+//heroku run bash
 //require all the controllers
 const controllers = {};
 const names = fs.readdirSync('./controllers/api/');
