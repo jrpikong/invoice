@@ -2,7 +2,7 @@ var fs = require('fs');
 
 //require all the services
 var daos = {};
-var names = fs.readdirSync('./dao/');
+var names = fs.readdirSync('./database/dao/');
 
 names.forEach(name => {
     if (!name.match(/\.js$/)) return;

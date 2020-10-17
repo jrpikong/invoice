@@ -1,0 +1,16 @@
+module.exports = {
+  express: require("express"),
+  sequelize: require("sequelize"),
+  cookieParser: require("cookie-parser"),
+  path: require("path"),
+  jwt: require("jsonwebtoken"),
+  co: require("co"),
+  async: require("async"),
+  logger : require('morgan'),
+  validator: require("express-validator"),
+  bcrypt: require("bcrypt"),
+  output: require("./output.js"),
+  status: require("./status.js"),
+  function: require("./function.js"),
+  fs: require("fs"),
+};

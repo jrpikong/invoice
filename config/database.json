@@ -4,7 +4,17 @@
     "password": "S3Cr3t_2019",
     "database": "invoice",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mysql",
+    "session": {
+      "secret": "LOREMIPSUMDOLORAMETSIT12345"
+    },
+    "jwt": {
+      "secret": "LOREMIPSUMDOLORAMETSIT12345",
+      "expirationInSeconds": 259200
+    },
+    "bcrypt": {
+      "salt_factor": 8
+    }
   },
   "test": {
     "username": "root",

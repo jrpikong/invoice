@@ -1,0 +1,9 @@
+{
+    "jwt": {
+        "secret": "9UWvg2rzATRx4hfldDHOK48ewOf8QTo+cuSFFB7INFA=",
+        "expirationInSeconds": 259200
+    },
+    "bcrypt": {
+        "salt_factor": 10
+    }
+}

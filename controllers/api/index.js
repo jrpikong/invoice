@@ -1,13 +1,13 @@
-var fs = require('fs');
+const fs = require('fs');
 
 //require all the controllers
-var controllers = {};
-var names = fs.readdirSync('./controllers/api/');
+const controllers = {};
+const names = fs.readdirSync('./controllers/api/');
 
 names.forEach(name => {
     if (!name.match(/\.js$/)) return;
     if (name === 'index.js') return;
-    var controller = require('./' + name);
+    const controller = require('./' + name);
 
     controllers[name.replace('.js', '')] = controller;
 });
